@@ -1,0 +1,3392 @@
+{
+ "meta": {
+  "name": "Latvijas matemātikas mācību satura taksonomija",
+  "version": "0.1-pilots",
+  "scope": "Matemātika, 1.–6. klase",
+  "source": "VISC programmas paraugs “Matemātika 1.–9. klasei” (mape.gov.lv); MK 27.11.2018. noteikumi Nr. 747, 6. pielikums",
+  "note": "Mikrotēmas un priekšzināšanu saites ir ekspertu pārskatei paredzēts melnraksts, nevis empīriski pārbaudīts modelis."
+ },
+ "ideas": [
+  {
+   "id": "Li1",
+   "name": "Matemātikas valoda",
+   "text": "Matemātikas valodu izmanto saziņai un jēdzienu, ideju, risinājumu aprakstīšanai."
+  },
+  {
+   "id": "Li2",
+   "name": "Domāšana un problēmrisināšana",
+   "text": "Saskatīt struktūras, sakarības, veidot vispārinājumus un tos pamatot."
+  },
+  {
+   "id": "Li3",
+   "name": "Skaitļi un darbības",
+   "text": "Katrai darbībai ar skaitļiem ir jēga, un to izpildei ir likumi un algoritmi."
+  },
+  {
+   "id": "Li4",
+   "name": "Sakarības un algebriskie modeļi",
+   "text": "Sakarības starp lielumiem apraksta algebriskie modeļi un funkcijas."
+  },
+  {
+   "id": "Li5",
+   "name": "Dati, mērījumi un varbūtība",
+   "text": "Datus var matemātiski apstrādāt un analizēt, lai pieņemtu pamatotus lēmumus."
+  },
+  {
+   "id": "Li6",
+   "name": "Figūras un telpa",
+   "text": "Figūru īpašību un lielumu izpēte ļauj risināt problēmas par formu un telpu."
+  }
+ ],
+ "topics": [
+  {
+   "code": "1.1",
+   "grade": 1,
+   "title": "Kā izstāsta un parāda: cik, kur, kāds?",
+   "hours": "12–14",
+   "sr": [
+    "M.3.1.2.2",
+    "M.3.2.1.4",
+    "M.3.2.2.4",
+    "M.3.2.1.2",
+    "M.3.4.1.1"
+   ]
+  },
+  {
+   "code": "1.2",
+   "grade": 1,
+   "title": "Cik kopā, cik palika?",
+   "hours": "16–20",
+   "sr": []
+  },
+  {
+   "code": "1.3",
+   "grade": 1,
+   "title": "Kā mēra garumus un kā iegūst simetrisku figūru?",
+   "hours": "8–10",
+   "sr": [
+    "M.3.2.2.5",
+    "M.3.5.3.2",
+    "M.3.6.4.3",
+    "M.3.1.2.2"
+   ]
+  },
+  {
+   "code": "1.4",
+   "grade": 1,
+   "title": "Kā pieraksta un salīdzina skaitļus, kuri ir lielāki nekā 10?",
+   "hours": "16–20",
+   "sr": [
+    "M.3.4.1.1",
+    "M.3.3.1.4",
+    "M.3.1.2.2",
+    "M.3.2.1.2",
+    "M.3.3.1.1",
+    "M.3.1.1.1"
+   ]
+  },
+  {
+   "code": "1.5",
+   "grade": 1,
+   "title": "Kā saskaita un atņem skaitļus, kuri lielāki nekā 10?",
+   "hours": "20–24",
+   "sr": [
+    "M.3.3.2.1",
+    "M.3.2.3.3"
+   ]
+  },
+  {
+   "code": "1.6",
+   "grade": 1,
+   "title": "Ko nozīmē “par tik vairāk”, “par tik mazāk”?",
+   "hours": "14–18",
+   "sr": [
+    "M.3.2.2.1",
+    "M.3.3.3.1",
+    "M.3.4.4.2",
+    "M.3.1.2.1",
+    "M.3.2.2.2",
+    "M.3.5.1.2",
+    "M.3.5.1.4",
+    "M.3.3.2.6",
+    "M.3.1.1.1",
+    "M.3.2.3.1"
+   ]
+  },
+  {
+   "code": "1.7",
+   "grade": 1,
+   "title": "Kur sastopamies ar lieliem skaitļiem?",
+   "hours": "16–20",
+   "sr": [
+    "M.3.2.2.1",
+    "M.3.3.3.1",
+    "M.3.1.2.1",
+    "M.3.3.2.7"
+   ]
+  },
+  {
+   "code": "1.8",
+   "grade": 1,
+   "title": "Kā apraksta un veido figūras?",
+   "hours": "10–14",
+   "sr": [
+    "M.3.6.2.2",
+    "M.3.2.1.3",
+    "M.3.6.1.2",
+    "M.3.6.1.1",
+    "M.3.6.1.5",
+    "M.3.6.1.6"
+   ]
+  },
+  {
+   "code": "2.1",
+   "grade": 2,
+   "title": "Kā grupē objektus?",
+   "hours": "6–8",
+   "sr": [
+    "M.3.2.1.4",
+    "M.3.3.1.5",
+    "M.3.5.1.1",
+    "M.3.5.1.3"
+   ]
+  },
+  {
+   "code": "2.2",
+   "grade": 2,
+   "title": "Kā nosaka dažādus garumus?",
+   "hours": "10–12",
+   "sr": []
+  },
+  {
+   "code": "2.3",
+   "grade": 2,
+   "title": "Kā saskaita un atņem divciparu skaitļus?",
+   "hours": "20–24",
+   "sr": [
+    "M.3.2.1.1",
+    "M.3.2.2.1",
+    "M.3.3.2.1",
+    "M.3.3.3.1",
+    "M.3.3.2.6",
+    "M.3.4.3.1"
+   ]
+  },
+  {
+   "code": "2.4",
+   "grade": 2,
+   "title": "Kā laika rēķini palīdz plānot?",
+   "hours": "8–12",
+   "sr": []
+  },
+  {
+   "code": "2.5",
+   "grade": 2,
+   "title": "Kā rodas izteiksme?",
+   "hours": "20–24",
+   "sr": [
+    "M.3.3.3.1",
+    "M.3.3.2.6",
+    "M.3.2.3.1"
+   ]
+  },
+  {
+   "code": "2.6",
+   "grade": 2,
+   "title": "Kā veido un raksturo figūras?",
+   "hours": "12–16",
+   "sr": []
+  },
+  {
+   "code": "2.7",
+   "grade": 2,
+   "title": "Ko nozīmē reizināt un dalīt ar 2?",
+   "hours": "12–16",
+   "sr": [
+    "M.3.4.1.1",
+    "M.3.2.1.2",
+    "M.3.5.2.1"
+   ]
+  },
+  {
+   "code": "2.8",
+   "grade": 2,
+   "title": "Kā reizina un dala ar 3, 4 un 5?",
+   "hours": "24–28",
+   "sr": [
+    "M.3.1.2.1",
+    "M.3.2.2.1",
+    "M.3.6.4.2",
+    "M.3.3.3.1"
+   ]
+  },
+  {
+   "code": "3.1",
+   "grade": 3,
+   "title": "Kā reizina un dala ar 6, 7, 8, 9 un 10?",
+   "hours": "24–28",
+   "sr": [
+    "M.3.3.2.1",
+    "M.3.3.3.1",
+    "M.3.4.2.1",
+    "M.3.2.1.2"
+   ]
+  },
+  {
+   "code": "3.2",
+   "grade": 3,
+   "title": "Kā izmanto visas darbības?",
+   "hours": "16–20",
+   "sr": [
+    "M.3.2.1.2",
+    "M.3.1.1.2",
+    "M.3.2.2.4",
+    "M.3.2.3.3",
+    "M.3.6.1.1",
+    "M.3.2.2.1",
+    "M.3.3.3.1",
+    "M.3.3.2.7"
+   ]
+  },
+  {
+   "code": "3.3",
+   "grade": 3,
+   "title": "Kā veido vietas plānu?",
+   "hours": "8–12",
+   "sr": []
+  },
+  {
+   "code": "3.4",
+   "grade": 3,
+   "title": "Ko nozīmē daļa no veselā?",
+   "hours": "24–28",
+   "sr": [
+    "M.3.3.1.4",
+    "M.3.1.2.1",
+    "M.3.1.2.3",
+    "M.3.3.1.2",
+    "M.3.3.2.5"
+   ]
+  },
+  {
+   "code": "3.5",
+   "grade": 3,
+   "title": "Kādi lielumi raksturo figūru?",
+   "hours": "14–18",
+   "sr": [
+    "M.3.6.4.2",
+    "M.3.4.2.1",
+    "M.3.2.1.2"
+   ]
+  },
+  {
+   "code": "3.6",
+   "grade": 3,
+   "title": "Kā saskaita un atņem trīsciparu skaitļus?",
+   "hours": "20–24",
+   "sr": [
+    "M.3.3.2.1",
+    "M.3.1.2.2",
+    "M.3.2.1.1",
+    "M.3.2.2.1",
+    "M.3.5.1.2"
+   ]
+  },
+  {
+   "code": "3.7",
+   "grade": 3,
+   "title": "Kā veido telpiskus modeļus?",
+   "hours": "8–10",
+   "sr": []
+  },
+  {
+   "code": "4.1",
+   "grade": 4,
+   "title": "Kā saskaita un atņem daudzciparu skaitļus?",
+   "hours": "20–24",
+   "sr": [
+    "M.6.2.2.1",
+    "M.6.1.2.1",
+    "M.6.5.1.2",
+    "M.6.5.1.4",
+    "M.6.5.1.1",
+    "M.6.5.1.7",
+    "M.6.2.3.6",
+    "M.6.2.3.1",
+    "M.6.1.2.2",
+    "M.6.3.1.3",
+    "M.6.4.3.1"
+   ]
+  },
+  {
+   "code": "4.2",
+   "grade": 4,
+   "title": "Kā daudzciparu skaitļus reizina un dala ar viencipara skaitli?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.2.3.6",
+    "M.6.2.3.5",
+    "M.6.2.1.3",
+    "M.6.3.3.1",
+    "M.6.2.2.5"
+   ]
+  },
+  {
+   "code": "4.3",
+   "grade": 4,
+   "title": "Kā mēra leņķi?",
+   "hours": "18–22",
+   "sr": [
+    "M.6.6.1.6",
+    "M.6.2.1.2",
+    "M.6.5.3.1",
+    "M.6.1.1.4",
+    "M.6.2.3.4",
+    "M.6.6.1.3",
+    "M.6.2.3.1",
+    "M.6.2.3.6",
+    "M.6.6.1.2",
+    "M.6.6.1.4"
+   ]
+  },
+  {
+   "code": "4.4",
+   "grade": 4,
+   "title": "Kā daudzciparu skaitļus reizina un dala ar divciparu skaitli?",
+   "hours": "20–24",
+   "sr": [
+    "M.6.2.2.2",
+    "M.6.3.3.1",
+    "M.6.3.2.6",
+    "M.6.2.2.6",
+    "M.6.3.2.5"
+   ]
+  },
+  {
+   "code": "4.5",
+   "grade": 4,
+   "title": "Kā salīdzina, saskaita un atņem daļskaitļus?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.1.2.2",
+    "M.6.3.1.3",
+    "M.6.2.3.5",
+    "M.6.3.2.1",
+    "M.6.4.3.1",
+    "M.6.4.1.1"
+   ]
+  },
+  {
+   "code": "4.6",
+   "grade": 4,
+   "title": "Ko nozīmē daļa no veselā?",
+   "hours": "17–21",
+   "sr": [
+    "M.6.3.3.1",
+    "M.6.4.1.3"
+   ]
+  },
+  {
+   "code": "4.7",
+   "grade": 4,
+   "title": "Kā nosaka dažādu figūru laukumu?",
+   "hours": "14–18",
+   "sr": [
+    "M.6.2.1.1",
+    "M.6.2.1.3",
+    "M.6.6.4.1",
+    "M.6.6.4.2",
+    "M.6.5.3.4",
+    "M.6.6.3.3",
+    "M.6.4.2.2",
+    "M.6.2.3.1",
+    "M.6.2.3.6",
+    "M.6.4.2.7",
+    "M.6.6.4.4"
+   ]
+  },
+  {
+   "code": "4.8",
+   "grade": 4,
+   "title": "Kas kopīgs iepirkšanās un kustības matemātiskajā aprakstā?",
+   "hours": "10–14",
+   "sr": [
+    "M.6.2.1.3",
+    "M.6.4.2.3",
+    "M.6.1.1.3",
+    "M.6.5.3.2",
+    "M.6.5.3.4",
+    "M.6.4.2.1"
+   ]
+  },
+  {
+   "code": "5.1",
+   "grade": 5,
+   "title": "Kā dažādi pieraksta naturālos skaitļus?",
+   "hours": "20–24",
+   "sr": [
+    "M.6.1.1.2",
+    "M.6.2.1.4",
+    "M.6.3.2.6",
+    "M.6.4.4.2",
+    "M.6.4.2.5"
+   ]
+  },
+  {
+   "code": "5.2",
+   "grade": 5,
+   "title": "Kā lieto skaitļa sadalīšanu reizinātājos?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.1.2.1",
+    "M.6.2.1.4",
+    "M.6.3.1.4",
+    "M.6.2.2.1",
+    "M.6.3.2.6",
+    "M.6.2.3.3",
+    "M.6.2.3.1"
+   ]
+  },
+  {
+   "code": "5.3",
+   "grade": 5,
+   "title": "Kā skaidro un lieto daļas pamatīpašību?",
+   "hours": "20–24",
+   "sr": [
+    "M.6.3.2.2",
+    "M.6.3.2.1",
+    "M.6.3.1.2",
+    "M.6.2.1.2"
+   ]
+  },
+  {
+   "code": "5.4",
+   "grade": 5,
+   "title": "Kā vienu skaitli izsaka kā otra skaitļa daļu?",
+   "hours": "16–20",
+   "sr": [
+    "M.6.2.2.1",
+    "M.6.2.2.3",
+    "M.6.3.2.4",
+    "M.6.4.4.2",
+    "M.6.1.2.2",
+    "M.6.1.2.3",
+    "M.6.5.1.4",
+    "M.6.5.2.1"
+   ]
+  },
+  {
+   "code": "5.5",
+   "grade": 5,
+   "title": "Kā saskaita un atņem jauktus skaitļus?",
+   "hours": "14–18",
+   "sr": [
+    "M.6.2.1.1",
+    "M.6.2.1.2",
+    "M.6.3.1.3",
+    "M.6.3.2.5",
+    "M.6.2.2.1",
+    "M.6.3.3.1",
+    "M.6.5.3.3",
+    "M.6.4.1.1",
+    "M.6.4.1.2",
+    "M.6.4.1.3"
+   ]
+  },
+  {
+   "code": "5.6",
+   "grade": 5,
+   "title": "Kā nosaka figūru nezināmos lielumus?",
+   "hours": "20–24",
+   "sr": [
+    "M.6.6.1.2",
+    "M.6.6.4.2",
+    "M.6.6.4.1",
+    "M.6.1.1.4",
+    "M.6.6.2.2",
+    "M.6.1.1.3",
+    "M.6.2.1.3",
+    "M.6.2.3.6",
+    "M.6.2.3.1"
+   ]
+  },
+  {
+   "code": "5.7",
+   "grade": 5,
+   "title": "Kā lieto decimāldaļas un procentus?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.2.1.1",
+    "M.6.2.1.2",
+    "M.6.3.1.3",
+    "M.6.3.2.1",
+    "M.6.1.1.1",
+    "M.6.3.1.1",
+    "M.6.5.1.2",
+    "M.6.5.1.3",
+    "M.6.5.1.4",
+    "M.6.5.1.6"
+   ]
+  },
+  {
+   "code": "5.8",
+   "grade": 5,
+   "title": "Kā vizuāli attēlo sakarību starp lielumiem?",
+   "hours": "11–13",
+   "sr": [
+    "M.6.4.2.2",
+    "M.6.2.2.2",
+    "M.6.2.2.4",
+    "M.6.2.2.3",
+    "M.6.2.2.5"
+   ]
+  },
+  {
+   "code": "6.1",
+   "grade": 6,
+   "title": "Kā kopumu sadala noteiktā attiecībā?",
+   "hours": "18–22",
+   "sr": [
+    "M.6.2.2.2",
+    "M.6.2.2.3",
+    "M.6.4.2.6",
+    "M.6.4.2.4",
+    "M.6.4.2.2",
+    "M.6.4.2.7"
+   ]
+  },
+  {
+   "code": "6.2",
+   "grade": 6,
+   "title": "Kā reizina un dala parastās daļas?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.1.2.2",
+    "M.6.3.2.1",
+    "M.6.3.2.5",
+    "M.6.1.1.3",
+    "M.6.2.3.2"
+   ]
+  },
+  {
+   "code": "6.3",
+   "grade": 6,
+   "title": "Kā izpratne par komata lietojumu palīdz, ja reizina un dala decimāldaļas?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.2.1.2",
+    "M.6.2.1.3",
+    "M.6.3.2.1",
+    "M.6.3.2.3",
+    "M.6.3.1.2"
+   ]
+  },
+  {
+   "code": "6.4",
+   "grade": 6,
+   "title": "Kā attēlo un skaitliski raksturo telpiskus ķermeņus?",
+   "hours": "22–26",
+   "sr": [
+    "M.6.5.3.2",
+    "M.6.2.1.3",
+    "M.6.6.4.1",
+    "M.6.2.1.1",
+    "M.6.6.4.3",
+    "M.6.6.1.5",
+    "M.6.6.1.8",
+    "M.6.6.1.7",
+    "M.6.4.2.2"
+   ]
+  },
+  {
+   "code": "6.5",
+   "grade": 6,
+   "title": "Kā sadzīves situācijās izmanto procentus?",
+   "hours": "18–22",
+   "sr": [
+    "M.6.5.1.2",
+    "M.6.2.2.2",
+    "M.6.4.4.1",
+    "M.6.3.3.1",
+    "M.6.3.2.4",
+    "M.6.4.4.2",
+    "M.6.2.2.4"
+   ]
+  },
+  {
+   "code": "6.6",
+   "grade": 6,
+   "title": "Kāpēc nepieciešami skaitļi, kuri ir mazāki nekā nulle?",
+   "hours": "28–32",
+   "sr": [
+    "M.6.4.2.2",
+    "M.6.2.1.2",
+    "M.6.2.1.4",
+    "M.6.3.1.3",
+    "M.6.2.3.2",
+    "M.6.6.1.1",
+    "M.6.6.1.2",
+    "M.6.6.2.1",
+    "M.6.6.3.1",
+    "M.6.6.3.2"
+   ]
+  },
+  {
+   "code": "6.7",
+   "grade": 6,
+   "title": "Ko nozīmē skaitlim pieskaitīt negatīvu skaitli, no skaitļa atņemt negatīvu skaitli?",
+   "hours": "24–28",
+   "sr": [
+    "M.6.2.1.2",
+    "M.6.4.3.1",
+    "M.6.2.2.6",
+    "M.6.1.2.3",
+    "M.6.3.2.1"
+   ]
+  },
+  {
+   "code": "6.8",
+   "grade": 6,
+   "title": "Kā plāno darbību izpildi ar visu veidu skaitļiem?",
+   "hours": "24–28",
+   "sr": [
+    "M.6.2.3.2",
+    "M.6.3.2.1",
+    "M.6.1.2.3",
+    "M.6.3.1.2",
+    "M.6.3.2.3"
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "id": "skait10",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li3",
+   "type": "P",
+   "name": "Skaitīšana līdz 10",
+   "desc": "Nosaka objektu skaitu; skaita uz priekšu un atpakaļ 10 apjomā."
+  },
+  {
+   "id": "cipari",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li1",
+   "type": "R",
+   "name": "Cipari un skaitļa pieraksts",
+   "desc": "Saista ar ciparu uzrakstītu skaitli ar objektu daudzumu."
+  },
+  {
+   "id": "salidz_skaitu",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaita salīdzināšana",
+   "desc": "Vairāk, mazāk, tikpat: salīdzina, saskaitot vai sagrupējot pa pāriem."
+  },
+  {
+   "id": "novietojums",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Novietojuma apraksts",
+   "desc": "Apraksta objekta vietu ar vārdiem pa labi, pa kreisi, virs, zem, starp."
+  },
+  {
+   "id": "pazimes",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li2",
+   "type": "K",
+   "name": "Pazīmes un grupēšana",
+   "desc": "Raksturo objektus pēc formas, lieluma, skaita; nosaka kopīgo un atšķirīgo."
+  },
+  {
+   "id": "daudzsturi",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Daudzstūru nosaukumi",
+   "desc": "Daudzstūra nosaukumu nosaka malu un virsotņu skaits."
+  },
+  {
+   "id": "algoritms",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li2",
+   "type": "S",
+   "name": "Soļu algoritms",
+   "desc": "Saplāno, pieraksta un izpilda dažu soļu darbību virkni."
+  },
+  {
+   "id": "virknes",
+   "topic": "1.1",
+   "grade": 1,
+   "li": "Li4",
+   "type": "S",
+   "name": "Virknes likumsakarība",
+   "desc": "No dotajiem elementiem secina, kāds varētu būt nākamais."
+  },
+  {
+   "id": "sastavs10",
+   "topic": "1.2",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaitļa sastāvs līdz 10",
+   "desc": "Viens un tas pats daudzums var veidoties no divām daļām dažādi."
+  },
+  {
+   "id": "plusminus10",
+   "topic": "1.2",
+   "grade": 1,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saskaitīšana un atņemšana 10 apjomā",
+   "desc": "Saskaita un atņem, balstoties uz skaitļa sastāvu un darbību jēgu."
+  },
+  {
+   "id": "nulle",
+   "topic": "1.2",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaitlis 0",
+   "desc": "Nulle nozīmē, ka nav skaitāmo objektu; pieskaitot vai atņemot 0, skaitlis nemainās."
+  },
+  {
+   "id": "zimes",
+   "topic": "1.2",
+   "grade": 1,
+   "li": "Li1",
+   "type": "R",
+   "name": "Zīmes +, – un =",
+   "desc": "Pieraksta saskaitīšanu, atņemšanu un vienādību ar simboliem."
+  },
+  {
+   "id": "merit_cm",
+   "topic": "1.3",
+   "grade": 1,
+   "li": "Li5",
+   "type": "P",
+   "name": "Garuma mērīšana centimetros",
+   "desc": "Mērīt nozīmē noteikt, cik vienību ietilpst objektā; lieto lineālu."
+  },
+  {
+   "id": "nogrieznis",
+   "topic": "1.3",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Nogrieznis un lauzta līnija",
+   "desc": "Nogrieznis ir taisnas līnijas daļa; lauztu līniju veido nogriežņi."
+  },
+  {
+   "id": "simetrija",
+   "topic": "1.3",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Simetriska figūra",
+   "desc": "Figūra ir simetriska, ja, pārlocot uz pusēm, abas daļas sakrīt."
+  },
+  {
+   "id": "par1",
+   "topic": "1.3",
+   "grade": 1,
+   "li": "Li4",
+   "type": "K",
+   "name": "“Par 1 vairāk” nozīme",
+   "desc": "Par 1 vairāk nozīmē tikpat un vēl 1."
+  },
+  {
+   "id": "desmiti",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Desmiti un vieni līdz 100",
+   "desc": "Lielu skaitu grupē pa desmit; skaitļa nosaukums atklāj tā sastāvu."
+  },
+  {
+   "id": "taisne",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li1",
+   "type": "R",
+   "name": "Skaitļu taisne",
+   "desc": "Katram skaitlim ir sava vieta uz taisnes; tālāk no nulles ir lielāks."
+  },
+  {
+   "id": "salidz100",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li3",
+   "type": "P",
+   "name": "Divciparu skaitļu salīdzināšana",
+   "desc": "Salīdzina desmitus, tad vienus; lieto zīmes < un >."
+  },
+  {
+   "id": "garuma_vien",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li5",
+   "type": "K",
+   "name": "Garuma mērvienības cm, dm, m",
+   "desc": "Mērvienības grupē pa desmit: 1 dm = 10 cm, 1 m = 100 cm."
+  },
+  {
+   "id": "kalendars",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li5",
+   "type": "K",
+   "name": "Diena, nedēļa, mēnesis, gads",
+   "desc": "Laika vienības un to attiecības kalendārā."
+  },
+  {
+   "id": "eiro",
+   "topic": "1.4",
+   "grade": 1,
+   "li": "Li5",
+   "type": "K",
+   "name": "Eiro un centi",
+   "desc": "Vienā eiro ir 100 centi."
+  },
+  {
+   "id": "plusminus20",
+   "topic": "1.5",
+   "grade": 1,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saskaitīšana un atņemšana 20 apjomā",
+   "desc": "Izvēlas paņēmienu, kad veidojas jauns desmits, un skaidro rezultātu."
+  },
+  {
+   "id": "atnem_nezin",
+   "topic": "1.5",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Atņemšana kā nezināmā saskaitāmā meklēšana",
+   "desc": "9 – 6 nozīmē atrast skaitli, kas kopā ar 6 dod 9."
+  },
+  {
+   "id": "komut_plus",
+   "topic": "1.5",
+   "grade": 1,
+   "li": "Li3",
+   "type": "K",
+   "name": "Saskaitāmo maiņa vietām",
+   "desc": "Saskaitāmos var mainīt vietām un grupēt, rezultāts nemainās."
+  },
+  {
+   "id": "parlase",
+   "topic": "1.5",
+   "grade": 1,
+   "li": "Li2",
+   "type": "S",
+   "name": "Pilnā pārlase",
+   "desc": "Sistemātiski uzskaita visus gadījumus un pamato, ka neviens nav aizmirsts."
+  },
+  {
+   "id": "par_tik",
+   "topic": "1.6",
+   "grade": 1,
+   "li": "Li4",
+   "type": "K",
+   "name": "Par tik vairāk, par tik mazāk",
+   "desc": "Salīdzina divus lielumus pēc starpības un aprēķina nezināmo."
+  },
+  {
+   "id": "shema",
+   "topic": "1.6",
+   "grade": 1,
+   "li": "Li1",
+   "type": "R",
+   "name": "Shematisks zīmējums",
+   "desc": "Situāciju vispirms modelē zīmējumā, tikai tad pieraksta ar skaitļiem."
+  },
+  {
+   "id": "vienad_nezin",
+   "topic": "1.6",
+   "grade": 1,
+   "li": "Li4",
+   "type": "R",
+   "name": "Vienādība ar nezināmo",
+   "desc": "Situāciju pieraksta ar vienādību, nezināmo aizstājot ar simbolu."
+  },
+  {
+   "id": "pulkstenis",
+   "topic": "1.7",
+   "grade": 1,
+   "li": "Li5",
+   "type": "P",
+   "name": "Pulkstenis: stundas un minūtes",
+   "desc": "Nolasa laiku analogajā un digitālajā pulkstenī; stundā ir 60 minūtes."
+  },
+  {
+   "id": "pilni_desmiti",
+   "topic": "1.7",
+   "grade": 1,
+   "li": "Li3",
+   "type": "P",
+   "name": "Darbības ar pilniem desmitiem",
+   "desc": "100 apjomā saskaita un atņem pilnus desmitus un viencipara skaitli."
+  },
+  {
+   "id": "masa_tilp",
+   "topic": "1.7",
+   "grade": 1,
+   "li": "Li5",
+   "type": "K",
+   "name": "Masa un tilpums: kg un l",
+   "desc": "Masu mēra kilogramos, tilpumu litros."
+  },
+  {
+   "id": "aptuveni",
+   "topic": "1.7",
+   "grade": 1,
+   "li": "Li3",
+   "type": "S",
+   "name": "Aptuvenais rezultāts",
+   "desc": "Novērtē, kāds varētu būt darbības rezultāts, pirms to aprēķina."
+  },
+  {
+   "id": "tabula",
+   "topic": "1.7",
+   "grade": 1,
+   "li": "Li5",
+   "type": "R",
+   "name": "Dati vienkāršā tabulā",
+   "desc": "Nolasa un pieraksta mērījumus un aprēķinus tabulā."
+  },
+  {
+   "id": "ipasibas",
+   "topic": "1.8",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Figūras būtiskās īpašības",
+   "desc": "Nošķir būtiskās īpašības (malu skaits) no nebūtiskām (krāsa, lielums)."
+  },
+  {
+   "id": "telpiskas",
+   "topic": "1.8",
+   "grade": 1,
+   "li": "Li6",
+   "type": "K",
+   "name": "Telpiskas figūras un to skati",
+   "desc": "Telpiska figūra no dažādām pusēm izskatās atšķirīgi."
+  },
+  {
+   "id": "figuru_dal",
+   "topic": "1.8",
+   "grade": 1,
+   "li": "Li6",
+   "type": "P",
+   "name": "Figūras dalīšana un savietošana",
+   "desc": "Sadala figūru daļās un no daļām veido jaunas figūras."
+  },
+  {
+   "id": "venna",
+   "topic": "2.1",
+   "grade": 2,
+   "li": "Li5",
+   "type": "R",
+   "name": "Venna diagramma",
+   "desc": "Attēlo grupēšanas rezultātu ar kopīgām un atšķirīgām pazīmēm."
+  },
+  {
+   "id": "mm",
+   "topic": "2.2",
+   "grade": 2,
+   "li": "Li5",
+   "type": "P",
+   "name": "Milimetrs un mērvienību pārveidošana",
+   "desc": "Izsaka lielākas garuma vienības mazākās."
+  },
+  {
+   "id": "vienibas_izmers",
+   "topic": "2.2",
+   "grade": 2,
+   "li": "Li5",
+   "type": "K",
+   "name": "Jo mazāka vienība, jo lielāks skaitlis",
+   "desc": "Mērot ar mazāku vienību, skaitliskā vērtība ir lielāka."
+  },
+  {
+   "id": "puse_ceturt",
+   "topic": "2.2",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Puse un ceturtdaļa",
+   "desc": "Atzīmē nogriežņa pusi un ceturtdaļu ar lentītēm un sloksnītēm."
+  },
+  {
+   "id": "plusminus100",
+   "topic": "2.3",
+   "grade": 2,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saskaitīšana un atņemšana 100 apjomā",
+   "desc": "Arī ar pāreju jaunā desmitā, izvēloties sev saprotamu paņēmienu."
+  },
+  {
+   "id": "parbaude",
+   "topic": "2.3",
+   "grade": 2,
+   "li": "Li2",
+   "type": "S",
+   "name": "Rezultāta pārbaude un ticamība",
+   "desc": "Pārliecinās, vai rezultāts ir pareizs un atbilst situācijai."
+  },
+  {
+   "id": "ilgums",
+   "topic": "2.4",
+   "grade": 2,
+   "li": "Li5",
+   "type": "P",
+   "name": "Notikuma ilgums",
+   "desc": "Aprēķina laika intervālu, ja zināms sākums un beigas, un otrādi."
+  },
+  {
+   "id": "stabini",
+   "topic": "2.4",
+   "grade": 2,
+   "li": "Li5",
+   "type": "R",
+   "name": "Stabiņu diagramma",
+   "desc": "Veido vienkāršu stabiņu diagrammu un nolasa to."
+  },
+  {
+   "id": "izteiksme",
+   "topic": "2.5",
+   "grade": 2,
+   "li": "Li1",
+   "type": "R",
+   "name": "Izteiksme un iekavas",
+   "desc": "Divu darbību situāciju pieraksta kā izteiksmi; iekavas rāda secību."
+  },
+  {
+   "id": "nevienadiba",
+   "topic": "2.5",
+   "grade": 2,
+   "li": "Li4",
+   "type": "K",
+   "name": "Patiesas un aplamas (ne)vienādības",
+   "desc": "Nosaka, vai vienādība vai nevienādība ir patiesa, arī bez precīza aprēķina."
+  },
+  {
+   "id": "sazarots_alg",
+   "topic": "2.5",
+   "grade": 2,
+   "li": "Li2",
+   "type": "S",
+   "name": "Sazarots algoritms",
+   "desc": "Soļu secība var mainīties atkarībā no nosacījuma."
+  },
+  {
+   "id": "perimetrs",
+   "topic": "2.6",
+   "grade": 2,
+   "li": "Li6",
+   "type": "K",
+   "name": "Perimetrs",
+   "desc": "Perimetrs ir malu garumu summa."
+  },
+  {
+   "id": "laukums_rut",
+   "topic": "2.6",
+   "grade": 2,
+   "li": "Li6",
+   "type": "K",
+   "name": "Laukums rūtiņās",
+   "desc": "Laukums ir vienību kvadrātu skaits, ar ko var noklāt figūru."
+  },
+  {
+   "id": "ciklisks_alg",
+   "topic": "2.6",
+   "grade": 2,
+   "li": "Li2",
+   "type": "S",
+   "name": "Ciklisks algoritms",
+   "desc": "Vienus un tos pašus soļus atkārto vairākas reizes."
+  },
+  {
+   "id": "reiz_jega",
+   "topic": "2.7",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Reizināšanas jēga",
+   "desc": "Reizināt ar 2 nozīmē ņemt divus vienādus daudzumus."
+  },
+  {
+   "id": "dal_jega",
+   "topic": "2.7",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Dalīšanas jēga",
+   "desc": "Sadalīt vienādās daļās vai nodalīt pa noteiktu skaitu."
+  },
+  {
+   "id": "para",
+   "topic": "2.7",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Pāra un nepāra skaitļi",
+   "desc": "Pāra skaitli var izdalīt ar 2; pāra un nepāra skaitļi mijas."
+  },
+  {
+   "id": "reizes",
+   "topic": "2.7",
+   "grade": 2,
+   "li": "Li4",
+   "type": "K",
+   "name": "Tik reižu vairāk, tik reižu mazāk",
+   "desc": "Ja viens lielums ir 2 reizes lielāks, otrs ir 2 reizes mazāks."
+  },
+  {
+   "id": "tabula_2_5",
+   "topic": "2.8",
+   "grade": 2,
+   "li": "Li3",
+   "type": "P",
+   "name": "Reizināšana un dalīšana ar 2, 3, 4, 5",
+   "desc": "Iegaumē reizinājumus un pamato tos ar modeļiem."
+  },
+  {
+   "id": "komut_reiz",
+   "topic": "2.8",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Reizinātāju maiņa vietām",
+   "desc": "Reizinājums nemainās, ja reizinātājus maina vietām."
+  },
+  {
+   "id": "secība",
+   "topic": "2.8",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Darbību secība",
+   "desc": "Reizināšanu un dalīšanu izpilda pirms saskaitīšanas un atņemšanas."
+  },
+  {
+   "id": "reiz_dal_saist",
+   "topic": "2.8",
+   "grade": 2,
+   "li": "Li3",
+   "type": "K",
+   "name": "Reizināšanas un dalīšanas saistība",
+   "desc": "Reizinājumu dalot ar vienu reizinātāju, iegūst otru."
+  },
+  {
+   "id": "tabula_10",
+   "topic": "3.1",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Reizināšanas tabula līdz 10",
+   "desc": "Reizina un dala tabulas apjomā; veido stratēģiju, kā atcerēties."
+  },
+  {
+   "id": "reiz_0_1",
+   "topic": "3.1",
+   "grade": 3,
+   "li": "Li3",
+   "type": "K",
+   "name": "Reizināšana ar 0 un 1",
+   "desc": "1 · a = a, 0 · a = 0; ar 0 dalīt nevar."
+  },
+  {
+   "id": "sadalamiba",
+   "topic": "3.1",
+   "grade": 3,
+   "li": "Li3",
+   "type": "K",
+   "name": "Summas reizināšana ar skaitli",
+   "desc": "Reizinot divciparu skaitli, var atsevišķi reizināt desmitus un vienus."
+  },
+  {
+   "id": "cena_daudzums",
+   "topic": "3.1",
+   "grade": 3,
+   "li": "Li4",
+   "type": "K",
+   "name": "Cena, daudzums un summa",
+   "desc": "Ja preču daudzums mainās noteiktu reižu, summa mainās tikpat reižu."
+  },
+  {
+   "id": "cetras_darb",
+   "topic": "3.2",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Četras darbības 100 apjomā",
+   "desc": "Veic visas darbības, veikli galvā tabulas un 20 apjomā."
+  },
+  {
+   "id": "izt_vertiba",
+   "topic": "3.2",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Izteiksmes vērtība",
+   "desc": "Aprēķina, ievērojot iekavas un darbību secību."
+  },
+  {
+   "id": "formula_p",
+   "topic": "3.2",
+   "grade": 3,
+   "li": "Li4",
+   "type": "R",
+   "name": "Formula ar burtiem",
+   "desc": "Taisnstūra perimetra aprēķinu pieraksta kā vārdisku un burtu formulu."
+  },
+  {
+   "id": "lidz1000",
+   "topic": "3.3",
+   "grade": 3,
+   "li": "Li3",
+   "type": "K",
+   "name": "Simti, desmiti un vieni",
+   "desc": "Skaitļa nosaukums rāda tūkstošu, simtu, desmitu un vienu skaitu."
+  },
+  {
+   "id": "reiz10_100",
+   "topic": "3.3",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Reizināšana un dalīšana ar 10 un 100",
+   "desc": "Reizina un dala ar 10 un 100, mainot šķiras."
+  },
+  {
+   "id": "noapalot",
+   "topic": "3.3",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Noapaļošana līdz desmitiem",
+   "desc": "Noapaļo mērījumus līdz pilniem desmitiem."
+  },
+  {
+   "id": "plans",
+   "topic": "3.3",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Vietas plāns",
+   "desc": "Plānā visi lielumi samazināti vienādu skaitu reižu."
+  },
+  {
+   "id": "kalkulators",
+   "topic": "3.3",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Kalkulatora lietošana",
+   "desc": "Lieto kalkulatoru aprēķiniem un pārbaudei."
+  },
+  {
+   "id": "dala",
+   "topic": "3.4",
+   "grade": 3,
+   "li": "Li3",
+   "type": "K",
+   "name": "Daļa no veselā",
+   "desc": "Veselo sadalot vienādās daļās, iegūst parasto daļu."
+  },
+  {
+   "id": "dala_pieraksts",
+   "topic": "3.4",
+   "grade": 3,
+   "li": "Li1",
+   "type": "R",
+   "name": "Saucējs un skaitītājs",
+   "desc": "Saucējs rāda daļu skaitu veselajā, skaitītājs paņemto daļu skaitu."
+  },
+  {
+   "id": "dala_taisne",
+   "topic": "3.4",
+   "grade": 3,
+   "li": "Li3",
+   "type": "R",
+   "name": "Daļa uz skaitļu taisnes",
+   "desc": "Īsta daļa atrodas starp 0 un 1."
+  },
+  {
+   "id": "desmitdalas",
+   "topic": "3.4",
+   "grade": 3,
+   "li": "Li1",
+   "type": "R",
+   "name": "Desmitdaļas un simtdaļas",
+   "desc": "Daļas ar saucēju 10 vai 100 var pierakstīt kā decimāldaļas."
+  },
+  {
+   "id": "veselais",
+   "topic": "3.4",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Veselais pēc daļas",
+   "desc": "Uzzīmē vai nosaka veselo, ja dota daļa no tā."
+  },
+  {
+   "id": "lenkis",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Leņķis: šaurs, taisns, plats",
+   "desc": "Atrod leņķus figūrās un apkārtnē un salīdzina tos ar taisnu leņķi."
+  },
+  {
+   "id": "laukums_t",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Taisnstūra laukums",
+   "desc": "Laukums ir kvadrātu skaits rindā, reizināts ar rindu skaitu."
+  },
+  {
+   "id": "vienlielas",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Vienādas un vienlielas figūras",
+   "desc": "Dažādām figūrām var būt vienāds laukums."
+  },
+  {
+   "id": "radiuss",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Riņķis un rādiuss",
+   "desc": "Riņķa lielumu nosaka rādiuss; zīmē ar cirkuli."
+  },
+  {
+   "id": "tilpums_kubi",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Tilpums vienības kubos",
+   "desc": "Ķermeņa tilpumu nosaka ar vienādiem kubiem."
+  },
+  {
+   "id": "pretpiemers",
+   "topic": "3.5",
+   "grade": 3,
+   "li": "Li2",
+   "type": "S",
+   "name": "Piemērs un pretpiemērs",
+   "desc": "Apgalvojumu ilustrē ar piemēru un atspēko ar pretpiemēru."
+  },
+  {
+   "id": "plusminus1000",
+   "topic": "3.6",
+   "grade": 3,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saskaitīšana un atņemšana 1000 apjomā",
+   "desc": "Spriež tāpat kā ar divciparu skaitļiem; veidojas jauns simts."
+  },
+  {
+   "id": "lielumi",
+   "topic": "3.6",
+   "grade": 3,
+   "li": "Li5",
+   "type": "P",
+   "name": "Aprēķini ar lielumiem",
+   "desc": "Saskaita un atņem garumus, masu gramos un kilogramos, tilpumu."
+  },
+  {
+   "id": "skaldni",
+   "topic": "3.7",
+   "grade": 3,
+   "li": "Li6",
+   "type": "K",
+   "name": "Kubs, piramīda, cilindrs, konuss",
+   "desc": "Raksturo un salīdzina telpiskus ķermeņus pēc virsotnēm, šķautnēm, skaldnēm."
+  },
+  {
+   "id": "izklajums",
+   "topic": "3.7",
+   "grade": 3,
+   "li": "Li6",
+   "type": "R",
+   "name": "Izklājums",
+   "desc": "No izklājuma veido telpisku figūru."
+  },
+  {
+   "id": "skiras",
+   "topic": "4.1",
+   "grade": 4,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaitļu šķiras līdz 10 000",
+   "desc": "Vieni, desmiti, simti, tūkstoši, desmittūkstoši."
+  },
+  {
+   "id": "rakstos",
+   "topic": "4.1",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saskaitīšana un atņemšana rakstos",
+   "desc": "Saskaita un atņem daudzciparu skaitļus 10 000 apjomā."
+  },
+  {
+   "id": "aptuv_vert",
+   "topic": "4.1",
+   "grade": 4,
+   "li": "Li3",
+   "type": "S",
+   "name": "Aptuvenā vērtība",
+   "desc": "Nosaka summas un starpības aptuveno vērtību un ar to pārbauda."
+  },
+  {
+   "id": "dati_stab",
+   "topic": "4.1",
+   "grade": 4,
+   "li": "Li5",
+   "type": "R",
+   "name": "Datu iegūšana un attēlošana",
+   "desc": "Iegūst datus tekstā un mērījumos, attēlo stabiņu diagrammā."
+  },
+  {
+   "id": "reiz_1cip",
+   "topic": "4.2",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Reizināšana un dalīšana ar viencipara skaitli",
+   "desc": "Reizina un dala divciparu un trīsciparu skaitļus."
+  },
+  {
+   "id": "atlikums",
+   "topic": "4.2",
+   "grade": 4,
+   "li": "Li3",
+   "type": "K",
+   "name": "Dalīšana ar atlikumu",
+   "desc": "Nosaka, cik reižu dalītājs ietilpst dalāmajā un cik paliek pāri."
+  },
+  {
+   "id": "asoc",
+   "topic": "4.2",
+   "grade": 4,
+   "li": "Li3",
+   "type": "S",
+   "name": "Ērta reizinātāju grupēšana",
+   "desc": "Maina un grupē reizinātājus, lai aprēķins būtu vienkāršāks."
+  },
+  {
+   "id": "stars",
+   "topic": "4.3",
+   "grade": 4,
+   "li": "Li6",
+   "type": "K",
+   "name": "Stars un leņķis kā figūra",
+   "desc": "Leņķi veido divi stari ar kopīgu sākumpunktu."
+  },
+  {
+   "id": "gradi",
+   "topic": "4.3",
+   "grade": 4,
+   "li": "Li5",
+   "type": "P",
+   "name": "Leņķa mērīšana grādos",
+   "desc": "Mēra un zīmē leņķus ar transportieri; taisns leņķis ir 90°."
+  },
+  {
+   "id": "paral_perp",
+   "topic": "4.3",
+   "grade": 4,
+   "li": "Li6",
+   "type": "K",
+   "name": "Paralēlas un perpendikulāras līnijas",
+   "desc": "Zīmē un pamato paralēlas un perpendikulāras malas."
+  },
+  {
+   "id": "paralelskaldnis",
+   "topic": "4.3",
+   "grade": 4,
+   "li": "Li6",
+   "type": "K",
+   "name": "Taisnstūra paralēlskaldnis",
+   "desc": "Raksturo skaldnes, šķautnes un to novietojumu."
+  },
+  {
+   "id": "reiz_2cip",
+   "topic": "4.4",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Reizināšana un dalīšana ar divciparu skaitli",
+   "desc": "Reizina un dala daudzciparu skaitļus ar divciparu skaitli."
+  },
+  {
+   "id": "prognoze",
+   "topic": "4.4",
+   "grade": 4,
+   "li": "Li3",
+   "type": "S",
+   "name": "Rezultāta prognoze",
+   "desc": "Pirms aprēķina noapaļo skaitļus un paredz rezultātu."
+  },
+  {
+   "id": "pamatdala",
+   "topic": "4.5",
+   "grade": 4,
+   "li": "Li3",
+   "type": "K",
+   "name": "Pamatdaļa",
+   "desc": "Katra daļa ir pamatdaļu summa; lielāka ir pamatdaļa ar mazāku saucēju."
+  },
+  {
+   "id": "neista",
+   "topic": "4.5",
+   "grade": 4,
+   "li": "Li3",
+   "type": "K",
+   "name": "Īstas un neīstas daļas",
+   "desc": "Neīstu daļu var izteikt kā vesela skaitļa un īstas daļas summu."
+  },
+  {
+   "id": "dalu_salidz",
+   "topic": "4.5",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Daļu salīdzināšana",
+   "desc": "Salīdzina daļas zīmējumā un uz skaitļu taisnes."
+  },
+  {
+   "id": "dalas_plus",
+   "topic": "4.5",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Daļu ar vienādiem saucējiem saskaitīšana",
+   "desc": "Saskaita un atņem daļas ar vienādiem saucējiem."
+  },
+  {
+   "id": "dala_no_liel",
+   "topic": "4.6",
+   "grade": 4,
+   "li": "Li3",
+   "type": "P",
+   "name": "Daļa no lieluma",
+   "desc": "Aprēķina daļas vērtību un nosaka veselo, ja zināma pamatdaļas vērtība."
+  },
+  {
+   "id": "lauk_vien",
+   "topic": "4.7",
+   "grade": 4,
+   "li": "Li5",
+   "type": "K",
+   "name": "Laukuma mērvienības",
+   "desc": "cm², dm², m², ha: kvadrāts ar vienības malu."
+  },
+  {
+   "id": "lauk_formula",
+   "topic": "4.7",
+   "grade": 4,
+   "li": "Li6",
+   "type": "P",
+   "name": "Laukums kā malu reizinājums",
+   "desc": "Aprēķina taisnstūra laukumu un nezināmo malu."
+  },
+  {
+   "id": "kombineta",
+   "topic": "4.7",
+   "grade": 4,
+   "li": "Li6",
+   "type": "S",
+   "name": "Kombinētas figūras laukums",
+   "desc": "Sadala figūru taisnstūros vai papildina līdz taisnstūrim."
+  },
+  {
+   "id": "atrums",
+   "topic": "4.8",
+   "grade": 4,
+   "li": "Li4",
+   "type": "K",
+   "name": "Ātrums, ceļš un laiks",
+   "desc": "Ja divi no trim lielumiem zināmi, trešo var aprēķināt."
+  },
+  {
+   "id": "atkarigi",
+   "topic": "4.8",
+   "grade": 4,
+   "li": "Li4",
+   "type": "K",
+   "name": "Savstarpēji atkarīgi lielumi",
+   "desc": "Iepirkšanos un kustību raksturo līdzīgas sakarības."
+  },
+  {
+   "id": "naturalie",
+   "topic": "5.1",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Naturālie skaitļi līdz miljardam",
+   "desc": "Decimālā skaitīšanas sistēma; miljons, miljards."
+  },
+  {
+   "id": "romiesu",
+   "topic": "5.1",
+   "grade": 5,
+   "li": "Li1",
+   "type": "R",
+   "name": "Romiešu cipari",
+   "desc": "Ciparu vērtība nav atkarīga no vietas pierakstā."
+  },
+  {
+   "id": "noapal_skira",
+   "topic": "5.1",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Noapaļošana līdz šķirai",
+   "desc": "Noapaļo naturālus skaitļus līdz noteiktai šķirai."
+  },
+  {
+   "id": "nezin_summa",
+   "topic": "5.1",
+   "grade": 5,
+   "li": "Li4",
+   "type": "P",
+   "name": "Nezināmais summā un starpībā",
+   "desc": "Aprēķina nezināmo saskaitāmo, mazināmo vai mazinātāju."
+  },
+  {
+   "id": "dalitaji",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Dalītāji un dalāmie",
+   "desc": "Nosaka naturāla skaitļa dalītājus un dalāmos."
+  },
+  {
+   "id": "pirmskaitli",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Pirmskaitļi un salikti skaitļi",
+   "desc": "Pirmskaitlis dalās tikai ar 1 un sevi."
+  },
+  {
+   "id": "reizinataji",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Sadalīšana reizinātājos",
+   "desc": "Pieraksta skaitli kā reizinājumu, arī pirmreizinātājos."
+  },
+  {
+   "id": "mkd",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Mazākais kopīgais dalāmais",
+   "desc": "Nosaka divu skaitļu mazāko kopīgo dalāmo."
+  },
+  {
+   "id": "pakape",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li1",
+   "type": "R",
+   "name": "Pakāpe",
+   "desc": "Vienādu skaitļu reizinājumu pieraksta kā pakāpi; bāze un kāpinātājs."
+  },
+  {
+   "id": "secība_pak",
+   "topic": "5.2",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Darbību secība ar kāpināšanu",
+   "desc": "Aprēķina izteiksmes, kurās ir visas darbības."
+  },
+  {
+   "id": "pamatipasiba",
+   "topic": "5.3",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Daļas pamatīpašība",
+   "desc": "Reizinot skaitītāju un saucēju ar to pašu skaitli, daļas lielums nemainās."
+  },
+  {
+   "id": "saisinat",
+   "topic": "5.3",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Saīsināšana un paplašināšana",
+   "desc": "Saīsina līdz nesaīsināmai daļai un paplašina līdz dotam saucējam."
+  },
+  {
+   "id": "kopsaucejs",
+   "topic": "5.3",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Daļas ar dažādiem saucējiem",
+   "desc": "Salīdzina, saskaita un atņem, vispirms vienādojot saucējus."
+  },
+  {
+   "id": "sk_ka_dala",
+   "topic": "5.4",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaitlis kā cita skaitļa daļa",
+   "desc": "a pret b, a : b, a/b; lieto salīdzināšanai sadzīvē."
+  },
+  {
+   "id": "dala_dalijums",
+   "topic": "5.4",
+   "grade": 5,
+   "li": "Li1",
+   "type": "K",
+   "name": "Daļa kā dalījums",
+   "desc": "Daļu var pierakstīt kā dalījumu un otrādi."
+  },
+  {
+   "id": "iespejamiba",
+   "topic": "5.4",
+   "grade": 5,
+   "li": "Li5",
+   "type": "K",
+   "name": "Iespējamība kā daļa",
+   "desc": "Notikuma iespējamību izsaka kā daļu no visiem gadījumiem."
+  },
+  {
+   "id": "jaukti",
+   "topic": "5.5",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Jaukti skaitļi",
+   "desc": "Jaukts skaitlis ir cits neīstas daļas pieraksts."
+  },
+  {
+   "id": "jaukti_plus",
+   "topic": "5.5",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Jauktu skaitļu saskaitīšana un atņemšana",
+   "desc": "Lieto darbību īpašības un dažādus pierakstus."
+  },
+  {
+   "id": "lenki_360",
+   "topic": "5.6",
+   "grade": 5,
+   "li": "Li6",
+   "type": "K",
+   "name": "Izstiepts, atvērts un pilns leņķis",
+   "desc": "Izstiepts leņķis ir 180°, pilns 360°."
+  },
+  {
+   "id": "lenku_aprek",
+   "topic": "5.6",
+   "grade": 5,
+   "li": "Li6",
+   "type": "P",
+   "name": "Leņķa lieluma aprēķins",
+   "desc": "Nosaka leņķi kā citu leņķu summu vai starpību."
+  },
+  {
+   "id": "rinka_linija",
+   "topic": "5.6",
+   "grade": 5,
+   "li": "Li6",
+   "type": "K",
+   "name": "Riņķa līnijas garums un diametrs",
+   "desc": "Visiem riņķiem garuma un rādiusa attiecība ir vienāda."
+  },
+  {
+   "id": "konstrukcija",
+   "topic": "5.6",
+   "grade": 5,
+   "li": "Li6",
+   "type": "P",
+   "name": "Daudzstūris pēc nosacījumiem",
+   "desc": "Zīmē daudzstūri pēc nosacījumiem par malām un leņķiem."
+  },
+  {
+   "id": "decimaldalas",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Decimāldaļas",
+   "desc": "Komats atdala veselos no desmitdaļām; decimālais sastāvs."
+  },
+  {
+   "id": "decim_plus",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Decimāldaļu salīdzināšana un saskaitīšana",
+   "desc": "Salīdzina, saskaita un atņem decimāldaļas."
+  },
+  {
+   "id": "procents",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li3",
+   "type": "K",
+   "name": "Procents",
+   "desc": "Procents ir viena simtdaļa."
+  },
+  {
+   "id": "procenti_no",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li3",
+   "type": "P",
+   "name": "Procenti no skaitļa",
+   "desc": "Aprēķina procentus no veselā un veselo pēc procentiem."
+  },
+  {
+   "id": "sektoru",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li5",
+   "type": "R",
+   "name": "Sektoru diagramma",
+   "desc": "Attēlo daļas no kopuma, kas kopā veido 100 %."
+  },
+  {
+   "id": "videjais",
+   "topic": "5.7",
+   "grade": 5,
+   "li": "Li5",
+   "type": "K",
+   "name": "Aritmētiskais vidējais",
+   "desc": "Viens skaitlis, kas kopumā raksturo datu kopu."
+  },
+  {
+   "id": "koord1",
+   "topic": "5.8",
+   "grade": 5,
+   "li": "Li4",
+   "type": "R",
+   "name": "Koordinātu plakne",
+   "desc": "Koordinātu asis iekārto kā skaitļu taisni; punkta koordinātas."
+  },
+  {
+   "id": "grafiks",
+   "topic": "5.8",
+   "grade": 5,
+   "li": "Li4",
+   "type": "R",
+   "name": "Sakarības grafiks",
+   "desc": "Attēlo sakarību starp diviem lielumiem un nolasa vērtības."
+  },
+  {
+   "id": "attieciba",
+   "topic": "6.1",
+   "grade": 6,
+   "li": "Li3",
+   "type": "K",
+   "name": "Skaitļu attiecība",
+   "desc": "Rāda, cik reižu viens skaitlis ir lielāks par otru."
+  },
+  {
+   "id": "sadalit_att",
+   "topic": "6.1",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Sadalīšana dotā attiecībā",
+   "desc": "Kopumu sadala attiecībā a : b vai a : b : c."
+  },
+  {
+   "id": "proporcionali",
+   "topic": "6.1",
+   "grade": 6,
+   "li": "Li4",
+   "type": "K",
+   "name": "Tieši un apgriezti proporcionāli lielumi",
+   "desc": "Ja viens lielums palielinās, otrs palielinās vai samazinās tikpat reižu."
+  },
+  {
+   "id": "merogs",
+   "topic": "6.1",
+   "grade": 6,
+   "li": "Li6",
+   "type": "P",
+   "name": "Mērogs",
+   "desc": "Aprēķina attālumu dabā pēc kartes un otrādi."
+  },
+  {
+   "id": "dalu_reiz",
+   "topic": "6.2",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Parasto daļu reizināšana",
+   "desc": "Reizina daļas un jauktus skaitļus; reizinot rezultāts var būt mazāks."
+  },
+  {
+   "id": "apgriezts",
+   "topic": "6.2",
+   "grade": 6,
+   "li": "Li3",
+   "type": "K",
+   "name": "Apgrieztais skaitlis",
+   "desc": "Skaitļa un tā apgrieztā skaitļa reizinājums ir 1."
+  },
+  {
+   "id": "dalu_dal",
+   "topic": "6.2",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Parasto daļu dalīšana",
+   "desc": "Dala, reizinot ar dalītāja apgriezto skaitli."
+  },
+  {
+   "id": "decim_reiz",
+   "topic": "6.3",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Decimāldaļu reizināšana",
+   "desc": "Komata vietu reizinājumā nosaka ciparu skaits aiz komata."
+  },
+  {
+   "id": "decim_dal",
+   "topic": "6.3",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Decimāldaļu dalīšana",
+   "desc": "Pareizina dalāmo un dalītāju, lai dalītu ar veselu skaitli."
+  },
+  {
+   "id": "virsmas_l",
+   "topic": "6.4",
+   "grade": 6,
+   "li": "Li6",
+   "type": "P",
+   "name": "Virsmas laukums",
+   "desc": "Paralēlskaldņa virsmas laukums ir izklājuma laukums."
+  },
+  {
+   "id": "tilpums_f",
+   "topic": "6.4",
+   "grade": 6,
+   "li": "Li6",
+   "type": "P",
+   "name": "Paralēlskaldņa tilpums",
+   "desc": "Tilpumu aprēķina no garuma, platuma un augstuma."
+  },
+  {
+   "id": "tilp_vien",
+   "topic": "6.4",
+   "grade": 6,
+   "li": "Li5",
+   "type": "K",
+   "name": "Tilpuma mērvienības",
+   "desc": "cm³, dm³, m³; 1 l = 1 dm³."
+  },
+  {
+   "id": "skati",
+   "topic": "6.4",
+   "grade": 6,
+   "li": "Li6",
+   "type": "R",
+   "name": "Telpiska ķermeņa skati",
+   "desc": "Raksturo no kubiem veidota ķermeņa skatus dažādos virzienos."
+  },
+  {
+   "id": "procenti_att",
+   "topic": "6.5",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Skaitlis kā cita skaitļa procenti",
+   "desc": "Izsaka vienu skaitli kā otra procentus sadzīves situācijās."
+  },
+  {
+   "id": "negativi",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li3",
+   "type": "K",
+   "name": "Negatīvi skaitļi",
+   "desc": "Temperatūra, konta atlikums; veselo skaitļu kopa."
+  },
+  {
+   "id": "modulis",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li3",
+   "type": "K",
+   "name": "Pretēji skaitļi un modulis",
+   "desc": "Modulis ir attālums līdz nullei uz skaitļu taisnes."
+  },
+  {
+   "id": "neg_salidz",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Pozitīvu un negatīvu skaitļu salīdzināšana",
+   "desc": "Sakārto skaitļus, izmantojot novietojumu uz taisnes."
+  },
+  {
+   "id": "koord4",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li6",
+   "type": "R",
+   "name": "Koordinātu plakne visos ceturkšņos",
+   "desc": "Atzīmē un nolasa punktus ar negatīvām koordinātām."
+  },
+  {
+   "id": "attalums",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li6",
+   "type": "K",
+   "name": "Attālums no punkta līdz taisnei",
+   "desc": "Īsākais nogrieznis, kas savieno punktu un taisni."
+  },
+  {
+   "id": "simetrija_p",
+   "topic": "6.6",
+   "grade": 6,
+   "li": "Li6",
+   "type": "K",
+   "name": "Simetrija pret taisni un punktu",
+   "desc": "Centrāli simetriskas figūras sakrīt pēc pagrieziena par 180°."
+  },
+  {
+   "id": "neg_plus",
+   "topic": "6.7",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Pozitīvu un negatīvu skaitļu saskaitīšana un atņemšana",
+   "desc": "Skaidro darbības ar pārvietošanos uz skaitļu taisnes."
+  },
+  {
+   "id": "neg_reiz",
+   "topic": "6.8",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Racionālu skaitļu reizināšana un dalīšana",
+   "desc": "Vispirms nosaka zīmi, tad moduli."
+  },
+  {
+   "id": "racionali",
+   "topic": "6.8",
+   "grade": 6,
+   "li": "Li3",
+   "type": "K",
+   "name": "Racionālo skaitļu kopa",
+   "desc": "Racionālu skaitli var pierakstīt kā m/n."
+  },
+  {
+   "id": "izt_racion",
+   "topic": "6.8",
+   "grade": 6,
+   "li": "Li3",
+   "type": "P",
+   "name": "Racionālu skaitļu izteiksmes",
+   "desc": "Plāno pieraksta veidu un darbību secību ar visu veidu skaitļiem."
+  }
+ ],
+ "edges": [
+  {
+   "topic": "cipari",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "salidz_skaitu",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "daudzsturi",
+   "pre": "pazimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "daudzsturi",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "algoritms",
+   "pre": "novietojums",
+   "strength": "hard"
+  },
+  {
+   "topic": "virknes",
+   "pre": "pazimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "sastavs10",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus10",
+   "pre": "sastavs10",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus10",
+   "pre": "cipari",
+   "strength": "hard"
+  },
+  {
+   "topic": "nulle",
+   "pre": "plusminus10",
+   "strength": "hard"
+  },
+  {
+   "topic": "zimes",
+   "pre": "plusminus10",
+   "strength": "hard"
+  },
+  {
+   "topic": "merit_cm",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "merit_cm",
+   "pre": "salidz_skaitu",
+   "strength": "hard"
+  },
+  {
+   "topic": "nogrieznis",
+   "pre": "merit_cm",
+   "strength": "soft"
+  },
+  {
+   "topic": "simetrija",
+   "pre": "pazimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "par1",
+   "pre": "salidz_skaitu",
+   "strength": "hard"
+  },
+  {
+   "topic": "desmiti",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "desmiti",
+   "pre": "sastavs10",
+   "strength": "hard"
+  },
+  {
+   "topic": "taisne",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "salidz100",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "salidz100",
+   "pre": "salidz_skaitu",
+   "strength": "hard"
+  },
+  {
+   "topic": "garuma_vien",
+   "pre": "merit_cm",
+   "strength": "hard"
+  },
+  {
+   "topic": "garuma_vien",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "eiro",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus20",
+   "pre": "plusminus10",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus20",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "atnem_nezin",
+   "pre": "plusminus20",
+   "strength": "hard"
+  },
+  {
+   "topic": "komut_plus",
+   "pre": "plusminus10",
+   "strength": "hard"
+  },
+  {
+   "topic": "parlase",
+   "pre": "sastavs10",
+   "strength": "hard"
+  },
+  {
+   "topic": "par_tik",
+   "pre": "par1",
+   "strength": "hard"
+  },
+  {
+   "topic": "par_tik",
+   "pre": "plusminus20",
+   "strength": "hard"
+  },
+  {
+   "topic": "shema",
+   "pre": "plusminus10",
+   "strength": "hard"
+  },
+  {
+   "topic": "vienad_nezin",
+   "pre": "zimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "vienad_nezin",
+   "pre": "atnem_nezin",
+   "strength": "hard"
+  },
+  {
+   "topic": "pulkstenis",
+   "pre": "kalendars",
+   "strength": "hard"
+  },
+  {
+   "topic": "pulkstenis",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "pilni_desmiti",
+   "pre": "plusminus20",
+   "strength": "hard"
+  },
+  {
+   "topic": "pilni_desmiti",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "masa_tilp",
+   "pre": "merit_cm",
+   "strength": "soft"
+  },
+  {
+   "topic": "aptuveni",
+   "pre": "pilni_desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "tabula",
+   "pre": "skait10",
+   "strength": "hard"
+  },
+  {
+   "topic": "ipasibas",
+   "pre": "daudzsturi",
+   "strength": "hard"
+  },
+  {
+   "topic": "telpiskas",
+   "pre": "ipasibas",
+   "strength": "hard"
+  },
+  {
+   "topic": "figuru_dal",
+   "pre": "ipasibas",
+   "strength": "hard"
+  },
+  {
+   "topic": "venna",
+   "pre": "pazimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "venna",
+   "pre": "tabula",
+   "strength": "hard"
+  },
+  {
+   "topic": "mm",
+   "pre": "garuma_vien",
+   "strength": "hard"
+  },
+  {
+   "topic": "vienibas_izmers",
+   "pre": "garuma_vien",
+   "strength": "hard"
+  },
+  {
+   "topic": "puse_ceturt",
+   "pre": "merit_cm",
+   "strength": "soft"
+  },
+  {
+   "topic": "plusminus100",
+   "pre": "pilni_desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus100",
+   "pre": "plusminus20",
+   "strength": "hard"
+  },
+  {
+   "topic": "parbaude",
+   "pre": "aptuveni",
+   "strength": "hard"
+  },
+  {
+   "topic": "ilgums",
+   "pre": "pulkstenis",
+   "strength": "hard"
+  },
+  {
+   "topic": "ilgums",
+   "pre": "plusminus100",
+   "strength": "hard"
+  },
+  {
+   "topic": "stabini",
+   "pre": "tabula",
+   "strength": "hard"
+  },
+  {
+   "topic": "stabini",
+   "pre": "salidz100",
+   "strength": "hard"
+  },
+  {
+   "topic": "izteiksme",
+   "pre": "zimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "izteiksme",
+   "pre": "plusminus100",
+   "strength": "hard"
+  },
+  {
+   "topic": "nevienadiba",
+   "pre": "vienad_nezin",
+   "strength": "hard"
+  },
+  {
+   "topic": "nevienadiba",
+   "pre": "salidz100",
+   "strength": "hard"
+  },
+  {
+   "topic": "sazarots_alg",
+   "pre": "algoritms",
+   "strength": "hard"
+  },
+  {
+   "topic": "perimetrs",
+   "pre": "nogrieznis",
+   "strength": "hard"
+  },
+  {
+   "topic": "perimetrs",
+   "pre": "plusminus100",
+   "strength": "hard"
+  },
+  {
+   "topic": "laukums_rut",
+   "pre": "figuru_dal",
+   "strength": "hard"
+  },
+  {
+   "topic": "laukums_rut",
+   "pre": "salidz_skaitu",
+   "strength": "hard"
+  },
+  {
+   "topic": "ciklisks_alg",
+   "pre": "algoritms",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_jega",
+   "pre": "plusminus20",
+   "strength": "hard"
+  },
+  {
+   "topic": "dal_jega",
+   "pre": "reiz_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "para",
+   "pre": "reiz_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "reizes",
+   "pre": "reiz_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "reizes",
+   "pre": "par_tik",
+   "strength": "hard"
+  },
+  {
+   "topic": "tabula_2_5",
+   "pre": "reiz_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "tabula_2_5",
+   "pre": "dal_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "komut_reiz",
+   "pre": "reiz_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "secība",
+   "pre": "izteiksme",
+   "strength": "hard"
+  },
+  {
+   "topic": "secība",
+   "pre": "tabula_2_5",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_dal_saist",
+   "pre": "dal_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_dal_saist",
+   "pre": "tabula_2_5",
+   "strength": "hard"
+  },
+  {
+   "topic": "tabula_10",
+   "pre": "tabula_2_5",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_0_1",
+   "pre": "tabula_2_5",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_0_1",
+   "pre": "nulle",
+   "strength": "hard"
+  },
+  {
+   "topic": "sadalamiba",
+   "pre": "tabula_10",
+   "strength": "hard"
+  },
+  {
+   "topic": "sadalamiba",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "cena_daudzums",
+   "pre": "tabula_10",
+   "strength": "hard"
+  },
+  {
+   "topic": "cena_daudzums",
+   "pre": "eiro",
+   "strength": "hard"
+  },
+  {
+   "topic": "cetras_darb",
+   "pre": "tabula_10",
+   "strength": "hard"
+  },
+  {
+   "topic": "cetras_darb",
+   "pre": "plusminus100",
+   "strength": "hard"
+  },
+  {
+   "topic": "izt_vertiba",
+   "pre": "secība",
+   "strength": "hard"
+  },
+  {
+   "topic": "izt_vertiba",
+   "pre": "cetras_darb",
+   "strength": "hard"
+  },
+  {
+   "topic": "formula_p",
+   "pre": "perimetrs",
+   "strength": "hard"
+  },
+  {
+   "topic": "formula_p",
+   "pre": "izt_vertiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "lidz1000",
+   "pre": "desmiti",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz10_100",
+   "pre": "lidz1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz10_100",
+   "pre": "tabula_10",
+   "strength": "hard"
+  },
+  {
+   "topic": "noapalot",
+   "pre": "lidz1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "noapalot",
+   "pre": "aptuveni",
+   "strength": "hard"
+  },
+  {
+   "topic": "plans",
+   "pre": "mm",
+   "strength": "hard"
+  },
+  {
+   "topic": "plans",
+   "pre": "reiz10_100",
+   "strength": "hard"
+  },
+  {
+   "topic": "kalkulators",
+   "pre": "cetras_darb",
+   "strength": "soft"
+  },
+  {
+   "topic": "dala",
+   "pre": "dal_jega",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala",
+   "pre": "puse_ceturt",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_pieraksts",
+   "pre": "dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_taisne",
+   "pre": "dala_pieraksts",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_taisne",
+   "pre": "taisne",
+   "strength": "hard"
+  },
+  {
+   "topic": "desmitdalas",
+   "pre": "dala_pieraksts",
+   "strength": "hard"
+  },
+  {
+   "topic": "desmitdalas",
+   "pre": "eiro",
+   "strength": "hard"
+  },
+  {
+   "topic": "veselais",
+   "pre": "dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "lenkis",
+   "pre": "ipasibas",
+   "strength": "hard"
+  },
+  {
+   "topic": "laukums_t",
+   "pre": "laukums_rut",
+   "strength": "hard"
+  },
+  {
+   "topic": "laukums_t",
+   "pre": "tabula_10",
+   "strength": "hard"
+  },
+  {
+   "topic": "vienlielas",
+   "pre": "laukums_t",
+   "strength": "hard"
+  },
+  {
+   "topic": "radiuss",
+   "pre": "ipasibas",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilpums_kubi",
+   "pre": "telpiskas",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilpums_kubi",
+   "pre": "laukums_t",
+   "strength": "hard"
+  },
+  {
+   "topic": "pretpiemers",
+   "pre": "pazimes",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus1000",
+   "pre": "lidz1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "plusminus1000",
+   "pre": "plusminus100",
+   "strength": "hard"
+  },
+  {
+   "topic": "lielumi",
+   "pre": "plusminus1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "lielumi",
+   "pre": "masa_tilp",
+   "strength": "hard"
+  },
+  {
+   "topic": "skaldni",
+   "pre": "telpiskas",
+   "strength": "hard"
+  },
+  {
+   "topic": "izklajums",
+   "pre": "skaldni",
+   "strength": "hard"
+  },
+  {
+   "topic": "skiras",
+   "pre": "lidz1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "rakstos",
+   "pre": "skiras",
+   "strength": "hard"
+  },
+  {
+   "topic": "rakstos",
+   "pre": "plusminus1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "aptuv_vert",
+   "pre": "noapalot",
+   "strength": "hard"
+  },
+  {
+   "topic": "aptuv_vert",
+   "pre": "rakstos",
+   "strength": "hard"
+  },
+  {
+   "topic": "dati_stab",
+   "pre": "stabini",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_1cip",
+   "pre": "sadalamiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_1cip",
+   "pre": "plusminus1000",
+   "strength": "hard"
+  },
+  {
+   "topic": "atlikums",
+   "pre": "reiz_1cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "asoc",
+   "pre": "komut_reiz",
+   "strength": "hard"
+  },
+  {
+   "topic": "stars",
+   "pre": "lenkis",
+   "strength": "hard"
+  },
+  {
+   "topic": "gradi",
+   "pre": "stars",
+   "strength": "hard"
+  },
+  {
+   "topic": "paral_perp",
+   "pre": "lenkis",
+   "strength": "hard"
+  },
+  {
+   "topic": "paralelskaldnis",
+   "pre": "skaldni",
+   "strength": "hard"
+  },
+  {
+   "topic": "paralelskaldnis",
+   "pre": "paral_perp",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_2cip",
+   "pre": "reiz_1cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "reiz_2cip",
+   "pre": "reiz10_100",
+   "strength": "hard"
+  },
+  {
+   "topic": "prognoze",
+   "pre": "aptuv_vert",
+   "strength": "hard"
+  },
+  {
+   "topic": "prognoze",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "pamatdala",
+   "pre": "dala_pieraksts",
+   "strength": "hard"
+  },
+  {
+   "topic": "neista",
+   "pre": "pamatdala",
+   "strength": "hard"
+  },
+  {
+   "topic": "neista",
+   "pre": "dala_taisne",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalu_salidz",
+   "pre": "neista",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalas_plus",
+   "pre": "pamatdala",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_no_liel",
+   "pre": "veselais",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_no_liel",
+   "pre": "reiz_1cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_no_liel",
+   "pre": "pamatdala",
+   "strength": "hard"
+  },
+  {
+   "topic": "lauk_vien",
+   "pre": "laukums_t",
+   "strength": "hard"
+  },
+  {
+   "topic": "lauk_vien",
+   "pre": "garuma_vien",
+   "strength": "hard"
+  },
+  {
+   "topic": "lauk_formula",
+   "pre": "laukums_t",
+   "strength": "hard"
+  },
+  {
+   "topic": "lauk_formula",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "kombineta",
+   "pre": "lauk_formula",
+   "strength": "hard"
+  },
+  {
+   "topic": "kombineta",
+   "pre": "figuru_dal",
+   "strength": "hard"
+  },
+  {
+   "topic": "atrums",
+   "pre": "ilgums",
+   "strength": "hard"
+  },
+  {
+   "topic": "atrums",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "atkarigi",
+   "pre": "cena_daudzums",
+   "strength": "hard"
+  },
+  {
+   "topic": "atkarigi",
+   "pre": "atrums",
+   "strength": "hard"
+  },
+  {
+   "topic": "naturalie",
+   "pre": "skiras",
+   "strength": "hard"
+  },
+  {
+   "topic": "romiesu",
+   "pre": "naturalie",
+   "strength": "hard"
+  },
+  {
+   "topic": "noapal_skira",
+   "pre": "noapalot",
+   "strength": "hard"
+  },
+  {
+   "topic": "noapal_skira",
+   "pre": "naturalie",
+   "strength": "hard"
+  },
+  {
+   "topic": "nezin_summa",
+   "pre": "vienad_nezin",
+   "strength": "hard"
+  },
+  {
+   "topic": "nezin_summa",
+   "pre": "rakstos",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalitaji",
+   "pre": "atlikums",
+   "strength": "hard"
+  },
+  {
+   "topic": "pirmskaitli",
+   "pre": "dalitaji",
+   "strength": "hard"
+  },
+  {
+   "topic": "pirmskaitli",
+   "pre": "parlase",
+   "strength": "soft"
+  },
+  {
+   "topic": "reizinataji",
+   "pre": "pirmskaitli",
+   "strength": "hard"
+  },
+  {
+   "topic": "mkd",
+   "pre": "reizinataji",
+   "strength": "hard"
+  },
+  {
+   "topic": "pakape",
+   "pre": "asoc",
+   "strength": "hard"
+  },
+  {
+   "topic": "secība_pak",
+   "pre": "pakape",
+   "strength": "hard"
+  },
+  {
+   "topic": "secība_pak",
+   "pre": "izt_vertiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "pamatipasiba",
+   "pre": "dalu_salidz",
+   "strength": "hard"
+  },
+  {
+   "topic": "pamatipasiba",
+   "pre": "reiz_dal_saist",
+   "strength": "hard"
+  },
+  {
+   "topic": "saisinat",
+   "pre": "pamatipasiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "saisinat",
+   "pre": "reizinataji",
+   "strength": "hard"
+  },
+  {
+   "topic": "kopsaucejs",
+   "pre": "saisinat",
+   "strength": "hard"
+  },
+  {
+   "topic": "kopsaucejs",
+   "pre": "mkd",
+   "strength": "hard"
+  },
+  {
+   "topic": "kopsaucejs",
+   "pre": "dalas_plus",
+   "strength": "hard"
+  },
+  {
+   "topic": "sk_ka_dala",
+   "pre": "dala_no_liel",
+   "strength": "hard"
+  },
+  {
+   "topic": "sk_ka_dala",
+   "pre": "pamatipasiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "dala_dalijums",
+   "pre": "sk_ka_dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "iespejamiba",
+   "pre": "sk_ka_dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "iespejamiba",
+   "pre": "parlase",
+   "strength": "soft"
+  },
+  {
+   "topic": "jaukti",
+   "pre": "neista",
+   "strength": "hard"
+  },
+  {
+   "topic": "jaukti_plus",
+   "pre": "jaukti",
+   "strength": "hard"
+  },
+  {
+   "topic": "jaukti_plus",
+   "pre": "kopsaucejs",
+   "strength": "hard"
+  },
+  {
+   "topic": "lenki_360",
+   "pre": "gradi",
+   "strength": "hard"
+  },
+  {
+   "topic": "lenku_aprek",
+   "pre": "lenki_360",
+   "strength": "hard"
+  },
+  {
+   "topic": "rinka_linija",
+   "pre": "radiuss",
+   "strength": "hard"
+  },
+  {
+   "topic": "rinka_linija",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "konstrukcija",
+   "pre": "paral_perp",
+   "strength": "hard"
+  },
+  {
+   "topic": "konstrukcija",
+   "pre": "gradi",
+   "strength": "hard"
+  },
+  {
+   "topic": "decimaldalas",
+   "pre": "desmitdalas",
+   "strength": "hard"
+  },
+  {
+   "topic": "decimaldalas",
+   "pre": "pamatipasiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_plus",
+   "pre": "decimaldalas",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_plus",
+   "pre": "rakstos",
+   "strength": "hard"
+  },
+  {
+   "topic": "procents",
+   "pre": "decimaldalas",
+   "strength": "hard"
+  },
+  {
+   "topic": "procenti_no",
+   "pre": "procents",
+   "strength": "hard"
+  },
+  {
+   "topic": "procenti_no",
+   "pre": "dala_no_liel",
+   "strength": "hard"
+  },
+  {
+   "topic": "sektoru",
+   "pre": "procents",
+   "strength": "hard"
+  },
+  {
+   "topic": "sektoru",
+   "pre": "dati_stab",
+   "strength": "hard"
+  },
+  {
+   "topic": "videjais",
+   "pre": "dati_stab",
+   "strength": "hard"
+  },
+  {
+   "topic": "videjais",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "koord1",
+   "pre": "taisne",
+   "strength": "hard"
+  },
+  {
+   "topic": "grafiks",
+   "pre": "koord1",
+   "strength": "hard"
+  },
+  {
+   "topic": "grafiks",
+   "pre": "atkarigi",
+   "strength": "hard"
+  },
+  {
+   "topic": "attieciba",
+   "pre": "sk_ka_dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "sadalit_att",
+   "pre": "attieciba",
+   "strength": "hard"
+  },
+  {
+   "topic": "proporcionali",
+   "pre": "attieciba",
+   "strength": "hard"
+  },
+  {
+   "topic": "proporcionali",
+   "pre": "atkarigi",
+   "strength": "hard"
+  },
+  {
+   "topic": "merogs",
+   "pre": "attieciba",
+   "strength": "hard"
+  },
+  {
+   "topic": "merogs",
+   "pre": "plans",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalu_reiz",
+   "pre": "pamatipasiba",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalu_reiz",
+   "pre": "jaukti",
+   "strength": "hard"
+  },
+  {
+   "topic": "apgriezts",
+   "pre": "dalu_reiz",
+   "strength": "hard"
+  },
+  {
+   "topic": "dalu_dal",
+   "pre": "apgriezts",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_reiz",
+   "pre": "decim_plus",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_reiz",
+   "pre": "reiz_2cip",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_dal",
+   "pre": "decim_reiz",
+   "strength": "hard"
+  },
+  {
+   "topic": "decim_dal",
+   "pre": "dala_dalijums",
+   "strength": "hard"
+  },
+  {
+   "topic": "virsmas_l",
+   "pre": "paralelskaldnis",
+   "strength": "hard"
+  },
+  {
+   "topic": "virsmas_l",
+   "pre": "izklajums",
+   "strength": "hard"
+  },
+  {
+   "topic": "virsmas_l",
+   "pre": "lauk_formula",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilpums_f",
+   "pre": "tilpums_kubi",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilpums_f",
+   "pre": "paralelskaldnis",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilpums_f",
+   "pre": "lauk_formula",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilp_vien",
+   "pre": "tilpums_f",
+   "strength": "hard"
+  },
+  {
+   "topic": "tilp_vien",
+   "pre": "lauk_vien",
+   "strength": "hard"
+  },
+  {
+   "topic": "skati",
+   "pre": "telpiskas",
+   "strength": "hard"
+  },
+  {
+   "topic": "skati",
+   "pre": "skaldni",
+   "strength": "hard"
+  },
+  {
+   "topic": "procenti_att",
+   "pre": "procenti_no",
+   "strength": "hard"
+  },
+  {
+   "topic": "procenti_att",
+   "pre": "attieciba",
+   "strength": "hard"
+  },
+  {
+   "topic": "negativi",
+   "pre": "taisne",
+   "strength": "hard"
+  },
+  {
+   "topic": "negativi",
+   "pre": "nulle",
+   "strength": "hard"
+  },
+  {
+   "topic": "modulis",
+   "pre": "negativi",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_salidz",
+   "pre": "modulis",
+   "strength": "hard"
+  },
+  {
+   "topic": "koord4",
+   "pre": "koord1",
+   "strength": "hard"
+  },
+  {
+   "topic": "koord4",
+   "pre": "negativi",
+   "strength": "hard"
+  },
+  {
+   "topic": "attalums",
+   "pre": "koord4",
+   "strength": "hard"
+  },
+  {
+   "topic": "attalums",
+   "pre": "paral_perp",
+   "strength": "hard"
+  },
+  {
+   "topic": "simetrija_p",
+   "pre": "simetrija",
+   "strength": "hard"
+  },
+  {
+   "topic": "simetrija_p",
+   "pre": "koord4",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_plus",
+   "pre": "neg_salidz",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_plus",
+   "pre": "modulis",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_reiz",
+   "pre": "neg_plus",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_reiz",
+   "pre": "dalu_dal",
+   "strength": "hard"
+  },
+  {
+   "topic": "neg_reiz",
+   "pre": "decim_dal",
+   "strength": "hard"
+  },
+  {
+   "topic": "racionali",
+   "pre": "neg_reiz",
+   "strength": "hard"
+  },
+  {
+   "topic": "racionali",
+   "pre": "dala_dalijums",
+   "strength": "hard"
+  },
+  {
+   "topic": "izt_racion",
+   "pre": "neg_reiz",
+   "strength": "hard"
+  },
+  {
+   "topic": "izt_racion",
+   "pre": "secība_pak",
+   "strength": "hard"
+  }
+ ]
+}
