@@ -117,7 +117,7 @@ footer p{margin:0}
 .lis i{width:9px;height:9px;border-radius:50%;display:inline-block}
 .gbtns{display:flex;gap:4px;pointer-events:auto}
 .gbtns button{font:inherit;font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;padding:3px 9px;cursor:pointer;min-width:30px}
-.ghint{position:absolute;left:14px;top:12px;font-size:.78rem;color:var(--muted);max-width:44ch;pointer-events:none;z-index:3;margin:0;background:color-mix(in srgb, var(--stage) 88%, transparent);padding:4px 6px;border-radius:6px}
+.ghint{font-size:.85rem;color:var(--muted);margin:0 0 8px;max-width:90ch}
 @media (prefers-reduced-motion: reduce){.chip{transition:none}}
 </style>
 
@@ -148,8 +148,8 @@ footer p{margin:0}
   <main>
     <div>
       <section id="view-graf" role="tabpanel" aria-labelledby="tab-graf">
+        <p class="ghint">Katrs punkts ir mikrotēma. Augstums ir klase, sektors ir lielā ideja, pavediens ir priekšzināšana. Velc, lai pagrieztu; klikšķini uz punkta, lai redzētu tā ceļu.</p>
         <div class="graphbox" id="gbox">
-          <p class="ghint">Katrs punkts ir mikrotēma. Augstums ir klase, sektors ir lielā ideja, pavediens ir priekšzināšana. Velc, lai pagrieztu; klikšķini uz punkta, lai redzētu tā ceļu.</p>
           <canvas id="gc" aria-label="Mikrotēmu un priekšzināšanu telpiskais grafs"></canvas>
           <div class="gtip" id="gtip" hidden></div>
           <div class="gbar">
