@@ -1146,6 +1146,15 @@
    "desc": "Pāra skaitli var izdalīt ar 2; pāra un nepāra skaitļi mijas."
   },
   {
+   "id": "biezums",
+   "topic": "2.7",
+   "grade": 2,
+   "li": "Li5",
+   "type": "K",
+   "name": "Notikuma biežums: vienmēr, nekad, dažreiz",
+   "desc": "Spriež, cik bieži notikums iestājas, piemēram, vai reizinot iegūs pāra skaitli."
+  },
+  {
    "id": "reizes",
    "topic": "2.7",
    "grade": 2,
@@ -1774,6 +1783,15 @@
    "type": "K",
    "name": "Daļa kā dalījums",
    "desc": "Daļu var pierakstīt kā dalījumu un otrādi."
+  },
+  {
+   "id": "eksperiments",
+   "topic": "5.4",
+   "grade": 5,
+   "li": "Li5",
+   "type": "P",
+   "name": "Biežums eksperimentā",
+   "desc": "Atkārtojot eksperimentu, arī ar digitāliem rīkiem, nosaka, cik bieži notikums iestājas."
   },
   {
    "id": "iespejamiba",
@@ -2474,6 +2492,11 @@
    "strength": "hard"
   },
   {
+   "topic": "biezums",
+   "pre": "para",
+   "strength": "hard"
+  },
+  {
    "topic": "reizes",
    "pre": "reiz_jega",
    "strength": "hard"
@@ -3039,8 +3062,23 @@
    "strength": "hard"
   },
   {
+   "topic": "eksperiments",
+   "pre": "biezums",
+   "strength": "hard"
+  },
+  {
+   "topic": "eksperiments",
+   "pre": "dati_stab",
+   "strength": "hard"
+  },
+  {
    "topic": "iespejamiba",
    "pre": "sk_ka_dala",
+   "strength": "hard"
+  },
+  {
+   "topic": "iespejamiba",
+   "pre": "eksperiments",
    "strength": "hard"
   },
   {
